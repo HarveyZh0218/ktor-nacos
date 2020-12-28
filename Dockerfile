@@ -1,6 +1,6 @@
 FROM openjdk:8-jre-alpine
 
-MAINTAINER delxie "se_xiepeng@hetaozs.com"
+MAINTAINER delxie "se_tangqiu@hetaozs.com"
 
 # 环境变量
 ENV APP_NAME @project.build.finalName@.@project.packaging@
