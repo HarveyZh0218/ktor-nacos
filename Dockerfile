@@ -1,4 +1,4 @@
-FROM nexus.mimikko.cn:8482/alpine-java-unlimited-jce:jre8
+FROM openjdk:8-jre-alpine
 
 MAINTAINER delxie "se_xiepeng@hetaozs.com"
 
