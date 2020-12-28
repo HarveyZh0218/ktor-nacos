@@ -7,6 +7,7 @@ RUN mkdir /app
 RUN chown -R $APPLICATION_USER /app
 
 USER $APPLICATION_USER
+RUN mvn clean package
 
 COPY ./build/libs/my-application.jar /app/my-application.jar
 WORKDIR /app
